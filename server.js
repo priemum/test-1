@@ -8,7 +8,7 @@ function validUrl(url) {
     return /http(s)?:\/\/(\w+:?\w*@)?(\S+)(:\d+)?((?<=\.)\w+)+(\/([\w#!:.?+=&%@!\-/])*)?/gi.test(url);
 }
 
-function base64ToNode(buffer) {
+function base64ToNode(buffer) {                
     return buffer.toString('base64');
 }
 
